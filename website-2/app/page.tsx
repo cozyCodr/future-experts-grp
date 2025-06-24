@@ -107,65 +107,57 @@ export default function HomePage() {
             <nav className="hidden lg:flex items-center space-x-8">
               <button
                 onClick={() => scrollToSection("home")}
-                className={`hover:text-orange-200 transition-colors pb-1 ${
-                  activeSection === "home" ? "border-b-2 border-white" : ""
-                }`}
+                className={`hover:text-orange-200 transition-colors pb-1 ${activeSection === "home" ? "border-b-2 border-white" : ""
+                  }`}
               >
                 Home
               </button>
               <button
                 onClick={() => scrollToSection("products")}
-                className={`hover:text-orange-200 transition-colors pb-1 ${
-                  activeSection === "products" ? "border-b-2 border-white" : ""
-                }`}
+                className={`hover:text-orange-200 transition-colors pb-1 ${activeSection === "products" ? "border-b-2 border-white" : ""
+                  }`}
               >
                 Products
               </button>
               <button
                 onClick={() => scrollToSection("solution")}
-                className={`hover:text-orange-200 transition-colors pb-1 ${
-                  activeSection === "solution" ? "border-b-2 border-white" : ""
-                }`}
+                className={`hover:text-orange-200 transition-colors pb-1 ${activeSection === "solution" ? "border-b-2 border-white" : ""
+                  }`}
               >
                 Solution
               </button>
               <button
                 onClick={() => scrollToSection("industry")}
-                className={`hover:text-orange-200 transition-colors pb-1 ${
-                  activeSection === "industry" ? "border-b-2 border-white" : ""
-                }`}
+                className={`hover:text-orange-200 transition-colors pb-1 ${activeSection === "industry" ? "border-b-2 border-white" : ""
+                  }`}
               >
                 Industry
               </button>
               <button
                 onClick={() => scrollToSection("corporate")}
-                className={`hover:text-orange-200 transition-colors pb-1 ${
-                  activeSection === "corporate" ? "border-b-2 border-white" : ""
-                }`}
+                className={`hover:text-orange-200 transition-colors pb-1 ${activeSection === "corporate" ? "border-b-2 border-white" : ""
+                  }`}
               >
                 Corporate
               </button>
               <button
                 onClick={() => scrollToSection("support")}
-                className={`hover:text-orange-200 transition-colors pb-1 ${
-                  activeSection === "support" ? "border-b-2 border-white" : ""
-                }`}
+                className={`hover:text-orange-200 transition-colors pb-1 ${activeSection === "support" ? "border-b-2 border-white" : ""
+                  }`}
               >
                 Support
               </button>
               <button
                 onClick={() => scrollToSection("about")}
-                className={`hover:text-orange-200 transition-colors pb-1 ${
-                  activeSection === "about" ? "border-b-2 border-white" : ""
-                }`}
+                className={`hover:text-orange-200 transition-colors pb-1 ${activeSection === "about" ? "border-b-2 border-white" : ""
+                  }`}
               >
                 About Us
               </button>
               <button
                 onClick={() => scrollToSection("contact")}
-                className={`hover:text-orange-200 transition-colors pb-1 ${
-                  activeSection === "contact" ? "border-b-2 border-white" : ""
-                }`}
+                className={`hover:text-orange-200 transition-colors pb-1 ${activeSection === "contact" ? "border-b-2 border-white" : ""
+                  }`}
               >
                 Contact Us
               </button>
@@ -723,7 +715,7 @@ export default function HomePage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-800 mb-4">Comprehensive Support</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We're here to help you succeed with 24/7 support, extensive resources, and expert guidance
+              We&apos;re here to help you succeed with 24/7 support, extensive resources, and expert guidance
             </p>
           </div>
 
@@ -890,8 +882,8 @@ export default function HomePage() {
                   ))}
                 </div>
                 <p className="text-gray-600 mb-6">
-                  "Future Experts Group's DMS solution has reduced our accident rate by 78% in just one year. The
-                  AI-powered insights are game-changing."
+                  &quot;Future Experts Group&apos;s DMS solution has reduced our accident rate by 78% in just one year. The
+                  AI-powered insights are game-changing.&quot;
                 </p>
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 bg-gray-300 rounded-full"></div>
@@ -911,8 +903,8 @@ export default function HomePage() {
                   ))}
                 </div>
                 <p className="text-gray-600 mb-6">
-                  "The real-time monitoring and driver coaching features have transformed our safety culture. Highly
-                  recommended!"
+                  &quot;The real-time monitoring and driver coaching features have transformed our safety culture. Highly
+                  recommended!&quot;
                 </p>
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 bg-gray-300 rounded-full"></div>
@@ -932,8 +924,8 @@ export default function HomePage() {
                   ))}
                 </div>
                 <p className="text-gray-600 mb-6">
-                  "Outstanding support and innovative technology. Our insurance premiums have decreased significantly
-                  since implementation."
+                  &quot;Outstanding support and innovative technology. Our insurance premiums have decreased significantly
+                  since implementation.&quot;
                 </p>
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 bg-gray-300 rounded-full"></div>
@@ -1025,7 +1017,7 @@ export default function HomePage() {
                     <div>
                       <h4 className="font-semibold text-gray-800">Email</h4>
                       <p className="text-gray-600">info@futureexpertsgroup.com</p>
-                      <p className="text-sm text-gray-500">We'll respond within 2 hours</p>
+                      <p className="text-sm text-gray-500">We&apos;ll respond within 2 hours</p>
                     </div>
                   </div>
                 </CardContent>
