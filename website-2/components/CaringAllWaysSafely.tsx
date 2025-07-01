@@ -93,7 +93,7 @@ export default function CaringAllWaysSafely() {
               
               {/* Real-time Safety Monitoring - Top Left (135° position) */}
               <div className="absolute" style={{ top: '14.6%', left: '14.6%', transform: 'translate(-50%, -50%)' }}>
-                <div className="w-16 h-16 bg-gray-700 rounded-full flex items-center justify-center border-[5px] border-white">
+                <div className="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center border-[5px] border-white">
                   <Camera className="w-8 h-8 text-white" />
                 </div>
               </div>
@@ -108,7 +108,7 @@ export default function CaringAllWaysSafely() {
 
               {/* Comprehensive Driver Training - Middle Left (180° position) */}
               <div className="absolute" style={{ top: '50%', left: '0%', transform: 'translate(-50%, -50%)' }}>
-                <div className="w-16 h-16 bg-gray-700 rounded-full flex items-center justify-center border-[5px] border-white">
+                <div className="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center border-[5px] border-white">
                   <Users className="w-8 h-8 text-white" />
                 </div>
               </div>
@@ -123,7 +123,7 @@ export default function CaringAllWaysSafely() {
 
               {/* Preventive Maintenance Strategy - Bottom Left (225° position) */}
               <div className="absolute" style={{ top: '85.4%', left: '14.6%', transform: 'translate(-50%, -50%)' }}>
-                <div className="w-16 h-16 bg-gray-700 rounded-full flex items-center justify-center border-[5px] border-white">
+                <div className="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center border-[5px] border-white">
                   <Wrench className="w-8 h-8 text-white" />
                 </div>
               </div>
@@ -140,7 +140,7 @@ export default function CaringAllWaysSafely() {
               
               {/* Compliance and Regulatory Compliance - Top Right (45° position) */}
               <div className="absolute" style={{ top: '14.6%', right: '14.6%', transform: 'translate(50%, -50%)' }}>
-                <div className="w-16 h-16 bg-gray-700 rounded-full flex items-center justify-center border-[5px] border-white">
+                <div className="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center border-[5px] border-white">
                   <Shield className="w-8 h-8 text-white" />
                 </div>
               </div>
@@ -155,7 +155,7 @@ export default function CaringAllWaysSafely() {
 
               {/* Reduce Distracted Driving - Middle Right (0° position) */}
               <div className="absolute" style={{ top: '50%', right: '0%', transform: 'translate(50%, -50%)' }}>
-                <div className="w-16 h-16 bg-gray-700 rounded-full flex items-center justify-center border-[5px] border-white">
+                <div className="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center border-[5px] border-white">
                   <Activity className="w-8 h-8 text-white" />
                 </div>
               </div>
@@ -170,7 +170,7 @@ export default function CaringAllWaysSafely() {
 
               {/* Behavior Analysis and Feedback - Bottom Right (315° position) */}
               <div className="absolute" style={{ top: '85.4%', right: '14.6%', transform: 'translate(50%, -50%)' }}>
-                <div className="w-16 h-16 bg-gray-700 rounded-full flex items-center justify-center border-[5px] border-white">
+                <div className="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center border-[5px] border-white">
                   <Settings className="w-8 h-8 text-white" />
                 </div>
               </div>

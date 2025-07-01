@@ -21,7 +21,7 @@ export default function Header({ activeSection, scrollToSection }: HeaderProps) 
       </div>
 
       {/* Header */}
-      <header className="bg-teal-700 text-white sticky top-0 z-40">
+      <header className="bg-orange-500 text-white sticky top-0 z-40">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between py-4">
             {/* Logo */}
@@ -37,28 +37,28 @@ export default function Header({ activeSection, scrollToSection }: HeaderProps) 
             <nav className="hidden lg:flex items-center space-x-8">
               <button
                 onClick={() => scrollToSection("home")}
-                className={`hover:text-teal-200 transition-colors pb-1 ${activeSection === "home" ? "border-b-2 border-white" : ""
+                className={`hover:text-orange-200 transition-colors pb-1 ${activeSection === "home" ? "border-b-2 border-white" : ""
                   }`}
               >
                 Home
               </button>
               <button
                 onClick={() => scrollToSection("products")}
-                className={`hover:text-teal-200 transition-colors pb-1 ${activeSection === "products" ? "border-b-2 border-white" : ""
+                className={`hover:text-orange-200 transition-colors pb-1 ${activeSection === "products" ? "border-b-2 border-white" : ""
                   }`}
               >
                 Products
               </button>
               <button
                 onClick={() => scrollToSection("solution")}
-                className={`hover:text-teal-200 transition-colors pb-1 ${activeSection === "solution" ? "border-b-2 border-white" : ""
+                className={`hover:text-orange-200 transition-colors pb-1 ${activeSection === "solution" ? "border-b-2 border-white" : ""
                   }`}
               >
                 Solutions
               </button>
               <button
                 onClick={() => scrollToSection("about")}
-                className={`hover:text-teal-200 transition-colors pb-1 ${activeSection === "about" ? "border-b-2 border-white" : ""
+                className={`hover:text-orange-200 transition-colors pb-1 ${activeSection === "about" ? "border-b-2 border-white" : ""
                   }`}
               >
                 About Us
@@ -67,7 +67,7 @@ export default function Header({ activeSection, scrollToSection }: HeaderProps) 
 
             {/* Search Icon */}
             <div className="flex items-center">
-              <Search className="w-5 h-5 cursor-pointer hover:text-teal-200" />
+              <Search className="w-5 h-5 cursor-pointer hover:text-orange-200" />
             </div>
           </div>
         </div>
