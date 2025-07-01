@@ -31,7 +31,7 @@ export default function FleetSafetyManagement() {
               />
               <div className="absolute top-4 left-4 bg-white bg-opacity-90 p-3 rounded">
                 <h3 className="font-bold text-gray-800 text-sm mb-1">Driver Monitoring System</h3>
-                <p className="text-orange-500 text-xs font-medium">Learn More ></p>
+                <p className="text-orange-500 text-xs font-medium">Learn More &gt;</p>
               </div>
             </div>
 
@@ -44,7 +44,7 @@ export default function FleetSafetyManagement() {
               />
               <div className="absolute top-4 left-4 bg-white bg-opacity-90 p-3 rounded">
                 <h3 className="font-bold text-gray-800 text-sm mb-1">ADAS (Anti-Collision)</h3>
-                <p className="text-orange-500 text-xs font-medium">Learn More ></p>
+                <p className="text-orange-500 text-xs font-medium">Learn More &gt;</p>
               </div>
             </div>
 
@@ -57,7 +57,7 @@ export default function FleetSafetyManagement() {
               />
               <div className="absolute top-4 left-4 bg-white bg-opacity-90 p-3 rounded">
                 <h3 className="font-bold text-gray-800 text-sm mb-1">AI Dashcam</h3>
-                <p className="text-orange-500 text-xs font-medium">Learn More ></p>
+                <p className="text-orange-500 text-xs font-medium">Learn More &gt;</p>
               </div>
             </div>
 
@@ -70,7 +70,7 @@ export default function FleetSafetyManagement() {
               />
               <div className="absolute top-4 left-4 bg-white bg-opacity-90 p-3 rounded">
                 <h3 className="font-bold text-gray-800 text-sm mb-1">BSD (Blind Spot Detection)</h3>
-                <p className="text-orange-500 text-xs font-medium">Learn More ></p>
+                <p className="text-orange-500 text-xs font-medium">Learn More &gt;</p>
               </div>
             </div>
 
@@ -83,7 +83,7 @@ export default function FleetSafetyManagement() {
               />
               <div className="absolute top-4 left-4 bg-white bg-opacity-90 p-3 rounded">
                 <h3 className="font-bold text-gray-800 text-sm mb-1">AVM (360° Around View Monitoring)</h3>
-                <p className="text-orange-500 text-xs font-medium">Learn More ></p>
+                <p className="text-orange-500 text-xs font-medium">Learn More &gt;</p>
               </div>
             </div>
 
@@ -96,7 +96,7 @@ export default function FleetSafetyManagement() {
               />
               <div className="absolute top-4 left-4 bg-white bg-opacity-90 p-3 rounded">
                 <h3 className="font-bold text-gray-800 text-sm mb-1">APC (AI Passenger Counter)</h3>
-                <p className="text-orange-500 text-xs font-medium">Learn More ></p>
+                <p className="text-orange-500 text-xs font-medium">Learn More &gt;</p>
               </div>
             </div>
 
@@ -109,7 +109,7 @@ export default function FleetSafetyManagement() {
               />
               <div className="absolute top-4 left-4 bg-white bg-opacity-90 p-3 rounded">
                 <h3 className="font-bold text-gray-800 text-sm mb-1">Radar Detection System</h3>
-                <p className="text-orange-500 text-xs font-medium">Learn More ></p>
+                <p className="text-orange-500 text-xs font-medium">Learn More &gt;</p>
               </div>
             </div>
 
@@ -122,7 +122,7 @@ export default function FleetSafetyManagement() {
               />
               <div className="absolute top-4 left-4 bg-white bg-opacity-90 p-3 rounded">
                 <h3 className="font-bold text-gray-800 text-sm mb-1">More Smart Products</h3>
-                <p className="text-orange-500 text-xs font-medium">Learn More ></p>
+                <p className="text-orange-500 text-xs font-medium">Learn More &gt;</p>
               </div>
             </div>
 

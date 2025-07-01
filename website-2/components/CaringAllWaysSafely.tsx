@@ -1,6 +1,6 @@
 "use client"
 
-import { Camera, Shield, Users, Settings, Activity, Wrench, AlertTriangle, BarChart3, Clock } from "lucide-react"
+import { Camera, Shield, Users, Settings, Activity, Wrench } from "lucide-react"
 
 export default function CaringAllWaysSafely() {
   return (
@@ -17,6 +17,7 @@ export default function CaringAllWaysSafely() {
         <div className="relative max-w-6xl mx-auto">
           {/* Central Image Circle */}
           <div className="relative z-10 w-96 h-96 mx-auto mb-8 rounded-full overflow-hidden">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img 
               src="/truck-driver-out-window.jpg" 
               alt="Professional truck driver" 
@@ -116,7 +117,7 @@ export default function CaringAllWaysSafely() {
                 <div className="pr-8">
                   <h3 className="text-lg font-bold text-gray-800 mb-1 text-right">Comprehensive Driver Training</h3>
                   <p className="text-gray-600 text-sm text-right">
-                    Through a combination of theory and practice, provide comprehensive training to enhance drivers' safety awareness and ability to respond to emergencies.
+                    Through a combination of theory and practice, provide comprehensive training to enhance drivers&apos; safety awareness and ability to respond to emergencies.
                   </p>
                 </div>
               </div>
