@@ -26,6 +26,7 @@ export default function Header({ activeSection, scrollToSection }: HeaderProps) 
           <div className="flex items-center justify-between py-4">
             {/* Logo */}
             <div className="flex items-center">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="/logo.png" alt="Future Experts Limited" className="h-12 w-auto mr-3" />
               <div>
                 <div className="text-2xl font-bold italic">Future Experts Limited</div>

@@ -97,6 +97,7 @@ export default function Industries() {
               </div>
             </div>
             <div className="relative">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/placeholder.svg?height=300&width=400"
                 alt="Case study results"

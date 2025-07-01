@@ -35,6 +35,7 @@ export default function About() {
             </div>
           </div>
           <div className="relative">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/placeholder.svg?height=400&width=600"
               alt="Fleet management dashboard"

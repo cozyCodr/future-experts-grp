@@ -1,6 +1,5 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
 
 export default function FleetSafetyManagement() {
   return (
@@ -14,7 +13,7 @@ export default function FleetSafetyManagement() {
             <span className="text-orange-500">Management Solutions</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            AlwayCare is the world's leading provider of safe driving solutions for truck drivers.
+            AlwayCare is the world&apos;s leading provider of safe driving solutions for truck drivers.
           </p>
         </div>
 
@@ -24,6 +23,7 @@ export default function FleetSafetyManagement() {
             
             {/* Driver Monitoring System - Row 1, Col 1 */}
             <div className="relative rounded-lg overflow-hidden group cursor-pointer bg-white shadow-md">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img 
                 src="/driver-monitoring-system.jpg" 
                 alt="Driver Monitoring System" 
@@ -37,6 +37,7 @@ export default function FleetSafetyManagement() {
 
             {/* ADAS (Anti-Collision) - Spans 2 rows (Row 1-2, Col 2) */}
             <div className="relative rounded-lg overflow-hidden group cursor-pointer bg-white shadow-md row-span-2">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img 
                 src="/anti-collision.jpg" 
                 alt="ADAS Anti-Collision" 
@@ -50,6 +51,7 @@ export default function FleetSafetyManagement() {
 
             {/* AI Dashcam - Row 1, Col 3 */}
             <div className="relative rounded-lg overflow-hidden group cursor-pointer bg-white shadow-md">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img 
                 src="/ai-dashcam.jpg" 
                 alt="AI Dashcam" 
@@ -63,6 +65,7 @@ export default function FleetSafetyManagement() {
 
             {/* BSD (Blind Spot Detection) - Spans 2 rows (Row 1-2, Col 4) */}
             <div className="relative rounded-lg overflow-hidden group cursor-pointer bg-white shadow-md row-span-2">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img 
                 src="/blind-spot-detection.jpg" 
                 alt="BSD Blind Spot Detection" 
@@ -76,6 +79,7 @@ export default function FleetSafetyManagement() {
 
             {/* AVM (360° Around View Monitoring) - Spans 2 rows (Row 2-3, Col 1) */}
             <div className="relative rounded-lg overflow-hidden group cursor-pointer bg-white shadow-md row-span-2">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img 
                 src="/around-view-monitoring.jpg" 
                 alt="AVM 360 Around View Monitoring" 
@@ -89,6 +93,7 @@ export default function FleetSafetyManagement() {
 
             {/* APC (AI Passenger Counter) - Spans 2 rows (Row 2-3, Col 3) */}
             <div className="relative rounded-lg overflow-hidden group cursor-pointer bg-white shadow-md row-span-2">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img 
                 src="/ai-passenger-counter.jpg" 
                 alt="APC AI Passenger Counter" 
@@ -102,6 +107,7 @@ export default function FleetSafetyManagement() {
 
             {/* Radar Detection System - Row 3, Col 2 */}
             <div className="relative rounded-lg overflow-hidden group cursor-pointer bg-white shadow-md">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img 
                 src="/rdar-detection-system.jpg" 
                 alt="Radar Detection System" 
@@ -115,6 +121,7 @@ export default function FleetSafetyManagement() {
 
             {/* More Smart Products - Row 3, Col 4 */}
             <div className="relative rounded-lg overflow-hidden group cursor-pointer bg-white shadow-md">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img 
                 src="/more-smart-products.jpg" 
                 alt="More Smart Products" 

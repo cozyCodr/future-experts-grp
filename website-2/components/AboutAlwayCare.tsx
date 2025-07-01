@@ -63,7 +63,7 @@ export default function AboutAlwayCare() {
             <div className="flex items-center justify-between mb-12 max-w-2xl">
               <div className="text-center">
                 <Globe className="w-12 h-12 mx-auto mb-3" />
-                <p className="font-bold text-lg mb-1">The world's first DMS</p>
+                <p className="font-bold text-lg mb-1">The world&apos;s first DMS</p>
                 <p className="text-sm opacity-90">manufacturer</p>
               </div>
               
