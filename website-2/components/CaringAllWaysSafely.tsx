@@ -9,7 +9,7 @@ export default function CaringAllWaysSafely() {
         {/* Title */}
         <div className="text-center mb-32">
           <h2 className="text-5xl font-bold text-gray-700 mb-4">
-            Caring All Ways <span className="text-orange-500">Safely</span>
+            Caring All Ways <span style={{color: '#e57808'}}>Safely</span>
           </h2>
         </div>
 

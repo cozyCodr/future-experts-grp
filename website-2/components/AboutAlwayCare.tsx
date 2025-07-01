@@ -5,7 +5,7 @@ import { Globe, FileText, Truck } from "lucide-react"
 
 export default function AboutAlwayCare() {
   return (
-    <section id="about" className="py-20 bg-orange-500">
+    <section id="about" className="py-20 text-white" style={{backgroundColor: '#e57808'}}>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between max-w-7xl mx-auto">
           

@@ -25,9 +25,9 @@ export default function Hero() {
 
       <div className="relative container mx-auto px-4 h-full flex items-center">
         <div className="max-w-2xl text-white">
-          <Badge className="bg-orange-500 text-white mb-4 px-4 py-2">#1 Fleet Safety Platform</Badge>
+          <Badge className="text-white mb-4 px-4 py-2" style={{backgroundColor: '#e57808'}}>#1 Fleet Safety Platform</Badge>
           <h1 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-            The Global <span className="text-orange-500">DMS</span>
+            The Global <span style={{color: '#e57808'}}>DMS</span>
             <br />
             Pioneer
           </h1>
@@ -35,7 +35,7 @@ export default function Hero() {
             Integrated AI driving safety and fleet management solution provider.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 text-lg rounded-md">
+            <Button className="text-white px-8 py-3 text-lg rounded-md hover:opacity-90" style={{backgroundColor: '#e57808'}}>
               Learn More
             </Button>
           </div>
