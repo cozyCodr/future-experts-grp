@@ -24,7 +24,6 @@ export default function Hero() {
 
       <div className="relative container mx-auto px-4 h-full flex items-center">
         <div className="max-w-2xl text-white">
-          <Badge className="text-white mb-4 px-4 py-2" style={{ backgroundColor: '#e57808' }}>#1 Fleet Safety Platform</Badge>
           <h1 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
             The Global Fleet Management and
             <br />

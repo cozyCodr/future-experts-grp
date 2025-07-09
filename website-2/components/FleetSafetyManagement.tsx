@@ -13,7 +13,7 @@ export default function FleetSafetyManagement() {
             <span className="text-orange-500">Management Solutions</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Future Experts is the world&apos;s leading provider of safe driving solutions for truck drivers.
+            Future Experts is the world&apos;s leading provider of safe driving solutions.
           </p>
         </div>
 
