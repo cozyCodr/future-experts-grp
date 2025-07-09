@@ -54,9 +54,9 @@ export default function HomePage() {
       <AboutAlwayCare />
       <Footer scrollToSection={scrollToSection} />
 
-      {cookieConsent && (
+      {/* {cookieConsent && (
         <CookieConsent onClose={() => setCookieConsent(false)} />
-      )}
+      )} */}
 
       <FloatingSocialLinks />
     </div>
