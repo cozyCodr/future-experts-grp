@@ -20,7 +20,7 @@ export default function Footer({ scrollToSection }: FooterProps) {
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-orange-500" />
                 <div className="flex flex-col">
-                  <span>+260 977 701177</span>
+                  <span>+260 977 701 177</span>
                   <span>+260 969 547 917</span>
                 </div>
               </div>
