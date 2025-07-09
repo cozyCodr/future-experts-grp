@@ -21,7 +21,7 @@ export default function Header({ activeSection, scrollToSection }: HeaderProps) 
       </div>
 
       {/* Header */}
-      <header className="sticky top-0 z-40 text-white" style={{backgroundColor: '#e57808'}}>
+      <header className="sticky top-0 z-40 text-[#e57808] bg-white">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between py-4">
             {/* Logo */}
