@@ -115,7 +115,7 @@ export default function Footer({ scrollToSection }: FooterProps) {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <div className="text-gray-400 text-sm">© 2024 Future Experts Limited. All rights reserved.</div>
+          <div className="text-gray-400 text-sm">© {new Date().getFullYear()} Future Experts Limited. All rights reserved.</div>
           <div className="flex gap-6 text-sm text-gray-400 mt-4 md:mt-0">
             <a href="#" className="hover:text-white transition-colors">
               Privacy Policy
