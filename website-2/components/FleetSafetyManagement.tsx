@@ -13,20 +13,20 @@ export default function FleetSafetyManagement() {
             <span className="text-orange-500">Management Solutions</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            AlwayCare is the world&apos;s leading provider of safe driving solutions for truck drivers.
+            Future Experts is the world&apos;s leading provider of safe driving solutions for truck drivers.
           </p>
         </div>
 
         {/* Solutions Grid - 4 columns, 3 rows with spanning cards */}
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-4 grid-rows-3 gap-4 h-[600px]">
-            
+
             {/* Driver Monitoring System - Row 1, Col 1 */}
             <div className="relative rounded-lg overflow-hidden group cursor-pointer bg-white shadow-md">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img 
-                src="/driver-monitoring-system.jpg" 
-                alt="Driver Monitoring System" 
+              <img
+                src="/driver-monitoring-system.jpg"
+                alt="Driver Monitoring System"
                 className="w-full h-full object-cover"
               />
               <div className="absolute top-4 left-4 bg-white bg-opacity-90 p-3 rounded">
@@ -38,9 +38,9 @@ export default function FleetSafetyManagement() {
             {/* ADAS (Anti-Collision) - Spans 2 rows (Row 1-2, Col 2) */}
             <div className="relative rounded-lg overflow-hidden group cursor-pointer bg-white shadow-md row-span-2">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img 
-                src="/anti-collision.jpg" 
-                alt="ADAS Anti-Collision" 
+              <img
+                src="/anti-collision.jpg"
+                alt="ADAS Anti-Collision"
                 className="w-full h-full object-cover"
               />
               <div className="absolute top-4 left-4 bg-white bg-opacity-90 p-3 rounded">
@@ -52,9 +52,9 @@ export default function FleetSafetyManagement() {
             {/* AI Dashcam - Row 1, Col 3 */}
             <div className="relative rounded-lg overflow-hidden group cursor-pointer bg-white shadow-md">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img 
-                src="/ai-dashcam.jpg" 
-                alt="AI Dashcam" 
+              <img
+                src="/ai-dashcam.jpg"
+                alt="AI Dashcam"
                 className="w-full h-full object-cover"
               />
               <div className="absolute top-4 left-4 bg-white bg-opacity-90 p-3 rounded">
@@ -66,9 +66,9 @@ export default function FleetSafetyManagement() {
             {/* BSD (Blind Spot Detection) - Spans 2 rows (Row 1-2, Col 4) */}
             <div className="relative rounded-lg overflow-hidden group cursor-pointer bg-white shadow-md row-span-2">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img 
-                src="/blind-spot-detection.jpg" 
-                alt="BSD Blind Spot Detection" 
+              <img
+                src="/blind-spot-detection.jpg"
+                alt="BSD Blind Spot Detection"
                 className="w-full h-full object-cover"
               />
               <div className="absolute top-4 left-4 bg-white bg-opacity-90 p-3 rounded">
@@ -80,9 +80,9 @@ export default function FleetSafetyManagement() {
             {/* AVM (360° Around View Monitoring) - Spans 2 rows (Row 2-3, Col 1) */}
             <div className="relative rounded-lg overflow-hidden group cursor-pointer bg-white shadow-md row-span-2">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img 
-                src="/around-view-monitoring.jpg" 
-                alt="AVM 360 Around View Monitoring" 
+              <img
+                src="/around-view-monitoring.jpg"
+                alt="AVM 360 Around View Monitoring"
                 className="w-full h-full object-cover"
               />
               <div className="absolute top-4 left-4 bg-white bg-opacity-90 p-3 rounded">
@@ -94,9 +94,9 @@ export default function FleetSafetyManagement() {
             {/* APC (AI Passenger Counter) - Spans 2 rows (Row 2-3, Col 3) */}
             <div className="relative rounded-lg overflow-hidden group cursor-pointer bg-white shadow-md row-span-2">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img 
-                src="/ai-passenger-counter.jpg" 
-                alt="APC AI Passenger Counter" 
+              <img
+                src="/ai-passenger-counter.jpg"
+                alt="APC AI Passenger Counter"
                 className="w-full h-full object-cover"
               />
               <div className="absolute top-4 left-4 bg-white bg-opacity-90 p-3 rounded">
@@ -108,9 +108,9 @@ export default function FleetSafetyManagement() {
             {/* Radar Detection System - Row 3, Col 2 */}
             <div className="relative rounded-lg overflow-hidden group cursor-pointer bg-white shadow-md">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img 
-                src="/rdar-detection-system.jpg" 
-                alt="Radar Detection System" 
+              <img
+                src="/rdar-detection-system.jpg"
+                alt="Radar Detection System"
                 className="w-full h-full object-cover"
               />
               <div className="absolute top-4 left-4 bg-white bg-opacity-90 p-3 rounded">
@@ -122,9 +122,9 @@ export default function FleetSafetyManagement() {
             {/* More Smart Products - Row 3, Col 4 */}
             <div className="relative rounded-lg overflow-hidden group cursor-pointer bg-white shadow-md">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img 
-                src="/more-smart-products.jpg" 
-                alt="More Smart Products" 
+              <img
+                src="/more-smart-products.jpg"
+                alt="More Smart Products"
                 className="w-full h-full object-cover"
               />
               <div className="absolute top-4 left-4 bg-white bg-opacity-90 p-3 rounded">

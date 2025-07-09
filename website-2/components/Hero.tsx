@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section id="home" className="relative h-screen bg-gradient-to-r from-black/70 to-black/30">
       {/* Background Video */}
-      <video 
+      <video
         className="absolute inset-0 w-full h-full object-cover"
         poster="https://media.tradew.com/file/202411/1576338/mp4/8249933.jpg"
         autoPlay
@@ -15,8 +15,8 @@ export default function Hero() {
         muted
         playsInline
       >
-        <source 
-          type="video/mp4" 
+        <source
+          type="video/mp4"
           src="https://media.tradew.com/file/202411/1576338/mp4/8249933.mp4"
         />
       </video>
@@ -24,17 +24,17 @@ export default function Hero() {
 
       <div className="relative container mx-auto px-4 h-full flex items-center">
         <div className="max-w-2xl text-white">
-          <Badge className="text-white mb-4 px-4 py-2" style={{backgroundColor: '#e57808'}}>#1 Fleet Safety Platform</Badge>
+          <Badge className="text-white mb-4 px-4 py-2" style={{ backgroundColor: '#e57808' }}>#1 Fleet Safety Platform</Badge>
           <h1 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-            The Global <span style={{color: '#e57808'}}>DMS</span>
+            The Global Fleet Management and
             <br />
-            Pioneer
+            <span style={{ color: '#e57808' }}>Safety</span> Solutions Provider
           </h1>
           <p className="text-xl mb-8 text-gray-200">
             Integrated AI driving safety and fleet management solution provider.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button className="text-white px-8 py-3 text-lg rounded-md hover:opacity-90" style={{backgroundColor: '#e57808'}}>
+            <Button className="text-white px-8 py-3 text-lg rounded-md hover:opacity-90" style={{ backgroundColor: '#e57808' }}>
               Learn More
             </Button>
           </div>
