@@ -6,12 +6,10 @@ import Hero from "@/components/Hero"
 import CaringAllWaysSafely from "@/components/CaringAllWaysSafely"
 import FleetSafetyManagement from "@/components/FleetSafetyManagement"
 import Footer from "@/components/Footer"
-import CookieConsent from "@/components/CookieConsent"
 import FloatingSocialLinks from "@/components/FloatingSocialLinks"
 import AboutAlwayCare from "@/components/AboutAlwayCare"
 
 export default function HomePage() {
-  const [cookieConsent, setCookieConsent] = useState(true)
   const [activeSection, setActiveSection] = useState("home")
 
   const scrollToSection = (sectionId: string) => {
