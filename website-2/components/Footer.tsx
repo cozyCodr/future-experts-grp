@@ -14,12 +14,15 @@ export default function Footer({ scrollToSection }: FooterProps) {
           <div>
             <div className="text-2xl font-bold italic mb-4">Future Experts Limited</div>
             <p className="text-gray-400 mb-6">
-              Leading provider of commercial fleet safety management solutions worldwide.
+              An ISO 9001 Certified provider of Commercial fleet safety management solutions
             </p>
             <div className="space-y-2">
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-orange-500" />
-                <span>+260 977 701177, +260 969 547 917</span>
+                <div className="flex flex-col">
+                  <span>+260 977 701177</span>
+                  <span>+260 969 547 917</span>
+                </div>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-orange-500" />

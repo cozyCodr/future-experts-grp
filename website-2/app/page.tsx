@@ -51,7 +51,6 @@ export default function HomePage() {
       <div className="py-16"></div>
       <FleetSafetyManagement />
       <div className="py-16"></div>
-      {/* <Contact /> */}
       <AboutAlwayCare />
       <Footer scrollToSection={scrollToSection} />
 

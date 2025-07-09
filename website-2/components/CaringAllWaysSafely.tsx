@@ -9,7 +9,7 @@ export default function CaringAllWaysSafely() {
         {/* Title */}
         <div className="text-center mb-32">
           <h2 className="text-5xl font-bold text-gray-700 mb-4">
-            Caring All Ways <span style={{color: '#e57808'}}>Safely</span>
+            We care for your <span style={{ color: '#e57808' }}>Safety</span>
           </h2>
         </div>
 
@@ -18,9 +18,9 @@ export default function CaringAllWaysSafely() {
           {/* Central Image Circle */}
           <div className="relative z-10 w-96 h-96 mx-auto mb-8 rounded-full overflow-hidden">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img 
-              src="/truck-driver-out-window.jpg" 
-              alt="Professional truck driver" 
+            <img
+              src="/truck-driver-out-window.jpg"
+              alt="Professional truck driver"
               className="w-full h-full object-cover"
             />
           </div>
@@ -37,7 +37,7 @@ export default function CaringAllWaysSafely() {
                 stroke="#f97316"
                 strokeWidth="2"
               />
-              
+
               {/* Invisible circle path for animation */}
               <circle
                 id="circlePath"
@@ -47,7 +47,7 @@ export default function CaringAllWaysSafely() {
                 fill="none"
                 stroke="none"
               />
-              
+
               {/* First animated bar */}
               <circle r="4" fill="#f97316">
                 <animateMotion
@@ -56,7 +56,7 @@ export default function CaringAllWaysSafely() {
                   path="M 250,2 A 248,248 0 1,1 249.9,2"
                 />
               </circle>
-              
+
               {/* Second animated bar (opposite direction) */}
               <circle r="4" fill="#f97316">
                 <animateMotion
@@ -65,7 +65,7 @@ export default function CaringAllWaysSafely() {
                   path="M 250,498 A 248,248 0 1,0 249.9,498"
                 />
               </circle>
-              
+
               {/* Third animated bar (for more visual interest) */}
               <circle r="3" fill="#fb923c" fillOpacity="0.8">
                 <animateMotion
@@ -74,7 +74,7 @@ export default function CaringAllWaysSafely() {
                   path="M 250,2 A 248,248 0 1,1 249.9,2"
                 />
               </circle>
-              
+
               {/* Fourth animated bar (opposite direction, different speed) */}
               <circle r="3" fill="#fb923c" fillOpacity="0.8">
                 <animateMotion
@@ -89,9 +89,9 @@ export default function CaringAllWaysSafely() {
           {/* Feature Items */}
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="relative w-[500px] h-[500px]">
-              
+
               {/* LEFT SIDE - Icons positioned on circle */}
-              
+
               {/* Real-time Safety Monitoring - Top Left (135° position) */}
               <div className="absolute" style={{ top: '14.6%', left: '14.6%', transform: 'translate(-50%, -50%)' }}>
                 <div className="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center border-[5px] border-white">
@@ -138,7 +138,7 @@ export default function CaringAllWaysSafely() {
               </div>
 
               {/* RIGHT SIDE - Icons positioned on circle */}
-              
+
               {/* Compliance and Regulatory Compliance - Top Right (45° position) */}
               <div className="absolute" style={{ top: '14.6%', right: '14.6%', transform: 'translate(50%, -50%)' }}>
                 <div className="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center border-[5px] border-white">
@@ -186,12 +186,12 @@ export default function CaringAllWaysSafely() {
 
             </div>
           </div>
-          
+
           {/* Shadow effect below circle */}
           <div className="absolute inset-0 flex items-center justify-center">
-            <div 
+            <div
               className="w-[400px] h-[80px] bg-black opacity-10 rounded-full blur-xl"
-              style={{ 
+              style={{
                 top: '75%',
                 transform: 'translateY(-50%)'
               }}
